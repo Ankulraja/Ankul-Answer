@@ -4,42 +4,6 @@ import { BiSolidMessageAlt } from "react-icons/bi";
 import "./Dash.css";
 import { Link } from "react-router-dom";
 const Dash = () => {
-  var preDefinString =
-    "Ankul Answer The Following Question                          ";
-  const [text, setText] = useState("");
-  const [preText, setPreText] = useState("");
-  const [toggle, setToggle] = useState(false);
-  const [result, setResult] = useState("");
-  const [loader, setLoader] = useState(false);
-  const [disable, setDisable] = useState(false);
-  const preDefine = (value) => {
-    setPreText(preDefinString.substring(0, value.length));
-  };
-  const changeHandler = (event) => {
-    if (event.target.value.length === 1 && event.target.value === ".") {
-      setToggle(true);
-    }
-    setText(event.target.value);
-    if (toggle) {
-      preDefine(event.target.value);
-    }
-  };
-  const submitHandler = (event) => {
-    event.preventDefault();
-
-    setLoader(true);
-    setTimeout(() => {
-      var ans = "";
-      if (toggle) {
-        ans = text.substring(1, text.length);
-      } else {
-        ans = "I Am Not Answering You";
-      }
-      setResult(ans);
-      setDisable(true);
-      setLoader(false);
-    }, 5000);
-  };
   return (
     <div className="w-screen min-h-screen">
       <div className="w-full h-72 bg-red-700 relative">
@@ -53,7 +17,6 @@ const Dash = () => {
             <h1 className="text-white font-bold text-3xl">Ankul Answers</h1>
           </div>
           <p className="text-white">Welcome To Ankul Answers...</p>
-          <p className="pt-10 text-2xl text-gray-200">{result}</p>
         </div>
         <Link to={"/"}>
           <button className="absolute top-[15%] right-[5%] text-4xl text-center text-white">

@@ -42,7 +42,7 @@ const Dash = () => {
       setResult(ans);
       setDisable(true);
       setLoader(false);
-    }, 200);
+    }, 5000);
   };
   return (
     <div className="w-screen  min-h-screen ">
