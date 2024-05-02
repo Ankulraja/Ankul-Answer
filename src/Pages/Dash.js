@@ -4,7 +4,7 @@ import { GoPlusCircle } from "react-icons/go";
 import { BsQuestionCircleFill } from "react-icons/bs";
 import "./Dash.css";
 import { Link } from "react-router-dom";
-import {PredefinedText} from "./PredefinedText"
+import { PredefinedText } from "./PredefinedText";
 const Dash = () => {
   var preDefinString =
     "Ankul Please Answer The Following Question                                                        ";
@@ -14,7 +14,7 @@ const Dash = () => {
   const [result, setResult] = useState("");
   const [loader, setLoader] = useState(false);
   const [disable, setDisable] = useState(false);
-//   console.log("..............",PredefinedText[3].text)
+  //   console.log("..............",PredefinedText[3].text)
   const preDefine = (value) => {
     setPreText(preDefinString.substring(0, value.length));
   };
@@ -60,12 +60,17 @@ const Dash = () => {
           <p className="pt-10 text-2xl text-gray-200">{result}</p>
         </div>
         <Link to={"/instruction"}>
-        <button className="absolute top-[15%] right-[5%] text-4xl text-center text-white">
+          <button className="absolute top-[15%] right-[5%] text-4xl text-center text-white">
             <BsQuestionCircleFill></BsQuestionCircleFill>
-        </button>
+          </button>
         </Link>
         {disable && (
-          <button  onClick={()=>{window.location.reload()}} className="absolute -bottom-[10%] right-[20%] text-6xl max-md:text-4xl max-md:-bottom-[6%] bg-blue-700 rounded-[50%] text-center text-white">
+          <button
+            onClick={() => {
+              window.location.reload();
+            }}
+            className="absolute -bottom-[10%] right-[20%] text-6xl max-md:text-4xl max-md:-bottom-[6%] bg-blue-700 rounded-[50%] text-center text-white"
+          >
             <GoPlusCircle></GoPlusCircle>
           </button>
         )}
@@ -88,14 +93,25 @@ const Dash = () => {
                 onChange={changeHandler}
                 placeholder="Petition"
                 // autoComplete="off"
-                autoComplete = "off"
-                className={`w-full h-14 text-xl border-b border-gray-500 bg-slate-200 pl-1 outline-none  ${
+                autoComplete="off"
+                className={`w-full  h-14 text-xl border-b border-gray-500 bg-slate-200 pl-1 outline-none  ${
                   toggle ? "text-transparent" : "text-black"
                 }`}
               ></input>
               {toggle && (
-                <p className="pl-1 z-10 absolute top-4 text-xl">{preText}</p>
+                // <p className="pl-1 h-8  z-10 absolute top-4 text-xl overflow-x-scroll ">{preText}</p>
+                <input type="text"
+                value={preText}
+                className="pl-1 absolute left-0 min-w-full z-10 bg-slate-200 top-4 text-xl"
+                >
+                </input>
+                // <p className="pl-1 border h-10 border-green-600 z-10 absolute top-4 text-xl overflow-x-scroll">
+                //   {preText}
+                // </p>
+                
               )}
+
+              
             </div>
 
             <input
@@ -120,7 +136,10 @@ const Dash = () => {
         </div>
       </div>
       <div className="w-7/12 max-md:w-10/12 border pb-5 border-gray-300 mx-auto font-horror tracking-widest text-xl text-red-700">
-        <p className="pt-6 px-5 border-t-2 border-red-700">Play at your own risk. We are not responsible for any paranormal activity that may occur</p>
+        <p className="pt-6 px-5 border-t-2 border-red-700">
+          Play at your own risk. We are not responsible for any paranormal
+          activity that may occur
+        </p>
         <p className="px-5">-By Owner</p>
       </div>
     </div>
