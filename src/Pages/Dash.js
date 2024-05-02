@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { Outlet } from "react-router";
 import { GoPlusCircle } from "react-icons/go";
+import { BsQuestionCircleFill } from "react-icons/bs";
 import "./Dash.css";
+import { Link } from "react-router-dom";
 const Dash = () => {
   var preDefinString =
     "Ankul Answer The Following Question                          ";
@@ -54,6 +56,11 @@ const Dash = () => {
           <p className="text-white">Welcome To Ankul Answers...</p>
           <p className="pt-10 text-2xl text-gray-200">{result}</p>
         </div>
+        <Link to={"/instruction"}>
+        <button className="absolute top-[15%] right-[5%] text-4xl text-center text-white">
+            <BsQuestionCircleFill></BsQuestionCircleFill>
+        </button>
+        </Link>
         {disable && (
           <button  onClick={()=>{window.location.reload()}} className="absolute -bottom-7 right-[20%] text-6xl bg-blue-700 rounded-[50%] text-center text-white">
             <GoPlusCircle></GoPlusCircle>
