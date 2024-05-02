@@ -62,7 +62,7 @@
     },
     {
      id:17,
-     text:"If you are not believe On your partner what they say then u will Die"
+     text:"You doing mistake may be result is not in your favour"
     },
     {
      id:18,
