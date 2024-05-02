@@ -65,7 +65,7 @@ const Dash = () => {
         </button>
         </Link>
         {disable && (
-          <button  onClick={()=>{window.location.reload()}} className="absolute -bottom-7 right-[20%] text-6xl max-md:text-3xl bg-blue-700 rounded-[50%] text-center text-white">
+          <button  onClick={()=>{window.location.reload()}} className="absolute -bottom-[10%] right-[20%] text-6xl max-md:text-4xl max-md:-bottom-[6%] bg-blue-700 rounded-[50%] text-center text-white">
             <GoPlusCircle></GoPlusCircle>
           </button>
         )}
