@@ -27,14 +27,14 @@ const Dash = () => {
 
       <div>
         <div className="w-6/12 max-md:w-10/12 mx-auto my-14 ">
-          <h1 className="font-bold text-lg py-2">Instructions to play Peter Answers</h1>
+          <h1 className="font-bold text-lg py-2">Instructions to play Ankul Answers</h1>
 
           <p className="font-bold py-1 text-md">How to do the petition?</p>
-          <p >The formula to enter the petition is by writing:<span className="font-bold text-red-700">Peter please answer the following question</span>  or simply:<span className="font-bold text-red-700"> Peter please answer</span>
+          <p >The formula to enter the petition is by writing: <span className="font-bold text-red-700">Ankul please answer the following question</span>  or simply: <span className="font-bold text-red-700">Ankul please answer</span>
             <p className="py-1">Press Enter to go to the following textbox.</p>
             
             <p className="font-bold pt-5 text-md">How to ask a question?</p>
-            <p>Please keep a friendly and positive language. When your question is ready, press Ask. Wait for a while and you will see the answer</p>
+            <p>Please keep a friendly and positive language. When your question is ready, press Ask. Wait for a while and you will see the answer.</p>
           </p>
         </div>
       </div>
