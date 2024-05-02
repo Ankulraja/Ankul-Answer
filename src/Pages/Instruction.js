@@ -26,7 +26,7 @@ const Dash = () => {
       </div>
 
       <div>
-        <div className="w-6/12 mx-auto my-14 ">
+        <div className="w-6/12 max-md:w-10/12 mx-auto my-14 ">
           <h1 className="font-bold text-lg py-2">Instructions to play Peter Answers</h1>
 
           <p className="font-bold py-1 text-md">How to do the petition?</p>

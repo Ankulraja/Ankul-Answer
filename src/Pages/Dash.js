@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import {PredefinedText} from "./PredefinedText"
 const Dash = () => {
   var preDefinString =
-    "Ankul Answer The Following Question                                                        ";
+    "Ankul Please Answer The Following Question                                                        ";
   const [text, setText] = useState("");
   const [preText, setPreText] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -65,7 +65,7 @@ const Dash = () => {
         </button>
         </Link>
         {disable && (
-          <button  onClick={()=>{window.location.reload()}} className="absolute -bottom-7 right-[20%] text-6xl bg-blue-700 rounded-[50%] text-center text-white">
+          <button  onClick={()=>{window.location.reload()}} className="absolute -bottom-7 right-[20%] text-6xl max-md:text-3xl bg-blue-700 rounded-[50%] text-center text-white">
             <GoPlusCircle></GoPlusCircle>
           </button>
         )}
@@ -119,7 +119,7 @@ const Dash = () => {
           </form>
         </div>
       </div>
-      <div className="w-7/12 border pb-5 border-gray-300 mx-auto font-horror tracking-widest text-xl text-red-700">
+      <div className="w-7/12 max-md:w-10/12 border pb-5 border-gray-300 mx-auto font-horror tracking-widest text-xl text-red-700">
         <p className="pt-6 px-5 border-t-2 border-red-700">Play at your own risk. We are not responsible for any paranormal activity that may occur</p>
         <p className="px-5">-By Owner</p>
       </div>

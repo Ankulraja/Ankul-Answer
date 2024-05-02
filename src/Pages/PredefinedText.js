@@ -10,11 +10,11 @@
     },
     {
      id:3,
-     text:"Believe Me First"
+     text:"Believe me first"
     },
     {
      id:4,
-     text:"Are Don't Play With Me I am Danger"
+     text:"Are don't play with Me I am Danger"
     },
     {
      id:5,
@@ -22,11 +22,11 @@
     },
     {
      id:6,
-     text:"I am Give ans to their Question Only"
+     text:"I am give ans to their question only"
     },
     {
      id:7,
-     text:"Don't Play With Me I will Harm You"
+     text:"Don't play with me i will Harm you"
     },
     {
      id:9,
@@ -34,7 +34,7 @@
     },
     {
      id:10,
-     text:"I am Real okk"
+     text:"I am real okk"
     },
     {
      id:11,
@@ -46,15 +46,15 @@
     },
     {
      id:13,
-     text:"Do Become a oversmart"
+     text:"Do become a oversmart"
     },
     {
      id:14,
-     text:"I am More Powerfull"
+     text:"I am more powerfull"
     },
     {
      id:15,
-     text:"I know so many Thing About you,Give Them Then I will Say"
+     text:"I know so many thing about you,Give Them Then I will Say"
     },
     {
      id:16,
@@ -62,7 +62,7 @@
     },
     {
      id:17,
-     text:"If you are not believe On your Partner what they Say u will Die"
+     text:"If you are not believe On your partner what they say then u will Die"
     },
     {
      id:18,

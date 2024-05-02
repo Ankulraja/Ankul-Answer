@@ -7,7 +7,7 @@
 }
 @keyframes load {
     0%{
-        transform: translateX(-20vw) scaleX(3);
+        transform: translateX(-20vw) scaleX(2);
     }
     100%{
         transform: translateX(120vw) scaleX(-0);  
