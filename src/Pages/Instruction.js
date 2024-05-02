@@ -41,7 +41,7 @@ const Dash = () => {
     }, 5000);
   };
   return (
-    <div className="w-screen h-screen">
+    <div className="w-screen min-h-screen">
       <div className="w-full h-72 bg-red-700 relative">
         <div className="w-7/12 mx-auto text-center">
           <div className="w-7/12 mx-auto pt-9 text-center flex justify-center items-center">

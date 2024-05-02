@@ -4,15 +4,17 @@ import { GoPlusCircle } from "react-icons/go";
 import { BsQuestionCircleFill } from "react-icons/bs";
 import "./Dash.css";
 import { Link } from "react-router-dom";
+import {PredefinedText} from "./PredefinedText"
 const Dash = () => {
   var preDefinString =
-    "Ankul Answer The Following Question                          ";
+    "Ankul Answer The Following Question                                                        ";
   const [text, setText] = useState("");
   const [preText, setPreText] = useState("");
   const [toggle, setToggle] = useState(false);
   const [result, setResult] = useState("");
   const [loader, setLoader] = useState(false);
   const [disable, setDisable] = useState(false);
+//   console.log("..............",PredefinedText[3].text)
   const preDefine = (value) => {
     setPreText(preDefinString.substring(0, value.length));
   };
@@ -34,15 +36,16 @@ const Dash = () => {
       if (toggle) {
         ans = text.substring(1, text.length);
       } else {
-        ans = "I Am Not Answering You";
+        var rand = Math.floor(Math.random() * 20) + 1;
+        ans = PredefinedText[rand].text;
       }
       setResult(ans);
       setDisable(true);
       setLoader(false);
-    }, 5000);
+    }, 200);
   };
   return (
-    <div className="w-screen h-screen">
+    <div className="w-screen  min-h-screen ">
       <div className="w-full h-72 bg-red-700 relative">
         <div className="w-7/12 mx-auto text-center">
           <div className="w-7/12 mx-auto pt-9 text-center flex justify-center items-center">
@@ -70,7 +73,7 @@ const Dash = () => {
       {loader && <div className="loader"></div>}
 
       <div>
-        <div className="w-7/12 mx-auto my-14 ">
+        <div className="w-7/12 max-sm:w-11/12 mx-auto my-14 ">
           <form
             onSubmit={submitHandler}
             className="w-11/12 mx-auto flex flex-col items-center"
@@ -84,7 +87,8 @@ const Dash = () => {
                 disabled={disable}
                 onChange={changeHandler}
                 placeholder="Petition"
-                autocomplete="off"
+                // autoComplete="off"
+                autoComplete = "off"
                 className={`w-full h-14 text-xl border-b border-gray-500 bg-slate-200 pl-1 outline-none  ${
                   toggle ? "text-transparent" : "text-black"
                 }`}
