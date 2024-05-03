@@ -46,9 +46,9 @@ const Dash = () => {
   };
   return (
     <div className="w-screen  min-h-screen ">
-      <div className="w-full h-72 bg-red-700 relative">
-        <div className="w-7/12 mx-auto text-center">
-          <div className="w-7/12 mx-auto pt-9 text-center flex justify-center items-center">
+      <div className="w-full py-5 min-h-72 bg-red-700 relative">
+        <div className="w-7/12 max-md:w-10/12 mx-auto text-center">
+          <div className="w-7/12 max-md:w-10/12 mx-auto pt-9 text-center flex justify-center items-center">
             <img
               className="w-20 h-20"
               alt="..."
