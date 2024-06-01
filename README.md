@@ -1,11 +1,13 @@
 ### Hello Everyone, My Self
 # Ankul Raja Patel
 
-This Ankul Answer Website is come up to a very unique idea. In this, we are not buying or selling any product. But this is unique and we use this website to play with our friend circle.
+Welcome to the Ankul Answer Website, a unique and innovative platform designed not for buying or selling products, but for having fun and engaging with your friends.
 
-Basically, in this, we ask the question by writing in the Question input and write petition as "Ankul please give answer the following question".
+Here's how it works:Ask a Question:
+   1.Enter your question in the provided input field.
+   2.Submit a Petition: Write your petition as "Ankul, please answer the following question."
 
-After clicking the Ask Button, we find an answer to the question. The question should be generic and related to your life also. You will find the answer to all questions of your personal life. [Know How to play](#rule).
+Once you click the Ask button, you’ll receive an answer to your question. The questions should be generic and relatable to your life. You will find answers to all your personal life questions. [Know How to play](#rule).
 
 **Vercel Link**: [Click Here](https://ankulanswer.vercel.app/)
 
@@ -82,7 +84,5 @@ Some Glimpses:
   
 ![Screenshot](https://res.cloudinary.com/dkoezhi9u/image/upload/v1717222378/UploadOnly/Petition_zs5jet.png)
 
-In the place of Question, you can type any question which you want to ask. But,
-
-In the place of the petition, if you use a `.` (dot) first, then write the answer to the question, a predefined petition (i.e., "Ankul Please Answer The Following Question") is shown in the petition row so your friend will not understand what you are writing 😁.
-</div>
+In the "Question" field, type any question you want to ask.
+But,In the "Petition" field, if you start with a . (dot) followed by your question, a predefined petition (i.e., "Ankul, please answer the following question") will appear, so your friends won’t understand what you are writing 😁.
