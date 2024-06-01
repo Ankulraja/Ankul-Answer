@@ -21,68 +21,11 @@ Some Glimpses:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div id="rule">
 ### Rule ###
   
 ![Screenshot](https://res.cloudinary.com/dkoezhi9u/image/upload/v1717222378/UploadOnly/Petition_zs5jet.png)
 
 In the "Question" field, type any question you want to ask.
+
 But,In the "Petition" field, if you start with a . (dot) followed by your question, a predefined petition (i.e., "Ankul, please answer the following question") will appear, so your friends won’t understand what you are writing 😁.
