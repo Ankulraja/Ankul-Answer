@@ -16,9 +16,71 @@ Some Glimpses:
 ![Screenshot](https://res.cloudinary.com/dkoezhi9u/image/upload/v1715610112/UploadOnly/Screenshot_2024-05-13_at_7.51.26_PM_nxrmqp.png)
 ![Screenshot](https://res.cloudinary.com/dkoezhi9u/image/upload/v1715610112/UploadOnly/Screenshot_2024-05-13_at_7.51.33_PM_z2fr8h.png)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div id="rule">
-### Rule
-![Rule](https://res.cloudinary.com/dkoezhi9u/image/upload/v1717222378/UploadOnly/Petition_zs5jet.png)
+### Rule ###
+  
+![Screenshot](https://res.cloudinary.com/dkoezhi9u/image/upload/v1717222378/UploadOnly/Petition_zs5jet.png)
 
 In the place of Question, you can type any question which you want to ask. But,
 
